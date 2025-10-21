@@ -1,4 +1,9 @@
 [
   "fix-require-modules",
-  "customjs"
+  "customjs",
+  "datacore",
+  "dataview",
+  "modules",
+  "quickadd",
+  "templater-obsidian"
 ]

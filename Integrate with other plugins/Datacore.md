@@ -1,0 +1,46 @@
+# [`datacorejs` / `datacorejsx` / `datacorets` / `datacoretsx`](https://blacksmithgu.github.io/datacore/code-views) scripts
+
+## Run `CodeScript Toolkit` from `Datacore`
+
+```datacorejs
+return dc.preact.h(
+  dc.Button,
+  { onClick: () => require('/integrateWithOtherPlugins').runFromDatacorejs() },
+  "Run CodeScript Toolkit from datacorejs"
+);
+```
+
+```datacorejsx
+return <dc.Button onClick={() => {
+  require('/integrateWithOtherPlugins').runFromDatacorejsx();
+}}>Run CodeScript Toolkit from datacorejsx</dc.Button>
+```
+
+```datacorets
+return dc.preact.h(
+  dc.Button,
+  { onClick: () => require('/integrateWithOtherPlugins').runFromDatacorets() },
+  "Run CodeScript Toolkit from datacorets"
+);
+```
+
+```datacoretsx
+return <dc.Button onClick={() => {
+  require('/integrateWithOtherPlugins').runFromDatacoretsx();
+}}>Run CodeScript Toolkit from datacoretsx</dc.Button>
+```
+
+## Run `Datacore` from `CodeScript Toolkit`
+
+```code-button
+---
+caption: Run Datacore from CodeScript Toolkit
+---
+import { Notice } from 'obsidian';
+const message = 'Run Datacore from CodeScript Toolkit. See page object in the console';
+new Notice(message);
+console.log(message);
+const page = datacore.page(app.workspace.getActiveFile().path);
+console.log(page);
+```
+

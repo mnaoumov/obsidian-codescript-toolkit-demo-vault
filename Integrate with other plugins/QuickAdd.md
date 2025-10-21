@@ -1,0 +1,1 @@
+# [`QuickAdd`](https://quickadd.obsidian.guide/) scripts

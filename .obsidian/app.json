@@ -4,5 +4,7 @@
   "newLinkFormat": "shortest",
   "useMarkdownLinks": false,
   "showUnsupportedFiles": true,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "defaultViewMode": "preview",
+  "livePreview": false
 }
