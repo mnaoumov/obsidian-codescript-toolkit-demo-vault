@@ -20,6 +20,10 @@ export function runFromDatacoretsx() {
   runFrom('datacoretsx');
 }
 
+export function runFromDataviewjs() {
+  runFrom('dataviewjs');
+}
+
 export function runFromDevToolsConsole() {
   runFrom('DevTools Console');
 }
