@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "content/_images",
+  "attachmentFolderPath": "_assets/attachments",
   "newLinkFormat": "shortest",
   "useMarkdownLinks": false,
   "showUnsupportedFiles": true,

@@ -7,7 +7,7 @@ To start using it:
 3. In Obsidian → Manage vaults... → **Open folder as vault** → select the unzipped folder.
 4. Enable plugins using one of these methods:
     - **Trust author** - to enable plugins immediately.
-        ![](./content/_images/trust-author.png)
+        ![](./_assets/attachments/trust-author.png)
     - **Enable manually** - turn on Community plugins.
-        ![](./content/_images/turn-on.png)
-5. [00 Start](<./content/00 Start.md>)
+        ![](./_assets/attachments/turn-on.png)
+5. [00 Start](<./00 Start.md>)

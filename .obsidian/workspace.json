@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "00 Start.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "00 Start"
             }
           }
         ]
@@ -171,12 +171,14 @@
   },
   "active": "75beaa9bacd151b4",
   "lastOpenFiles": [
-    "content/00 Start.md",
-    "content/01 Integration with other plugins.md",
     "README.md",
+    "00 Start.md",
+    "01 Integration with other plugins.md",
+    "_assets/attachments",
+    "_assets",
     "content/_images",
     "content",
-    "content/_images/turn-on.png",
-    "content/_images/trust-author.png"
+    "_assets/attachments/turn-on.png",
+    "_assets/attachments/trust-author.png"
   ]
 }
