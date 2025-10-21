@@ -5,11 +5,11 @@
 
 ```code-button
 ---
-caption: Run CustomJS from CodeScriptToolkit
+caption: Run CustomJS from CodeScript Toolkit
 ---
 customJS.CustomJSModule.runFromCodeScriptToolkit()
 ```
 
 ## Run `CodeScript Toolkit` from `CustomJS`
 
-Invoke `CustomJS: InvokeCodeScriptToolkit` command.
+Invoke `CustomJS: RunCodeScriptToolkitFromCustomJS` command.

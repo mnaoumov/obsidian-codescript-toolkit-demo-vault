@@ -3,7 +3,7 @@
   "jsFolder": "_assets/CustomJS",
   "startupScriptNames": [],
   "registeredInvocableScriptNames": [
-    "InvokeCodeScriptToolkit"
+    "RunCodeScriptToolkitFromCustomJS"
   ],
   "rerunStartupScriptsOnFileChange": false
 }
