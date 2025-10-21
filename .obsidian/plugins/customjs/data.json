@@ -1,0 +1,9 @@
+{
+  "jsFiles": "",
+  "jsFolder": "_assets/CustomJS",
+  "startupScriptNames": [],
+  "registeredInvocableScriptNames": [
+    "InvokeCodeScriptToolkit"
+  ],
+  "rerunStartupScriptsOnFileChange": false
+}

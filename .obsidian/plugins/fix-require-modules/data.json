@@ -1,0 +1,9 @@
+{
+  "defaultCodeButtonConfig": "",
+  "invocableScriptsFolder": "",
+  "mobileChangesCheckingIntervalInSeconds": 30,
+  "modulesRoot": "_assets/CodeScriptToolkit",
+  "shouldHandleProtocolUrls": false,
+  "shouldUseSyncFallback": false,
+  "startupScriptPath": ""
+}

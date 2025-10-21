@@ -1,6 +1,6 @@
 This is an [Obsidian](https://obsidian.md/) vault to demonstrate features of [CodeScript Toolkit](https://github.com/mnaoumov/obsidian-codescript-toolkit/) plugin.
 
-- Integrate with another plugins
+- [[Integrate with other plugins]]
 - [Built-in Modules](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/built-in-modules.md)
 - [`obsidian/app` module](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/obsidian-app-module.md)
 - [`obsidian/specialModuleNames` module](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/obsidian-special-module-names.md)
