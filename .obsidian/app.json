@@ -1,1 +1,8 @@
-{}
+{
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "content/_images",
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": true,
+  "newFileLocation": "current"
+}
