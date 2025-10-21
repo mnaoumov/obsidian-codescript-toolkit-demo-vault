@@ -28,6 +28,10 @@ export function runFromDevToolsConsole() {
   runFrom('DevTools Console');
 }
 
+export function runFromModules() {
+  runFrom('Modules');
+}
+
 function runFrom(from) {
   new Notice(`Run CodeScriptToolkit from ${from}`);
   console.log(`Run CodeScriptToolkit from ${from}`);
