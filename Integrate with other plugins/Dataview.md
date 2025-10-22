@@ -5,7 +5,7 @@
 ```dataviewjs
 const button = dv.el('button', 'Run CodeScript Toolkit from Dataview');
 button.addEventListener('click', () => {
-  const { runFromDataviewjs } = require('/integrateWithOtherPlugins');
+  const { runFromDataviewjs } = require('/integrateWithOtherPlugins.js');
   runFromDataviewjs();
 });
 ```
