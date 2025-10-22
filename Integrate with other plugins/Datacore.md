@@ -5,28 +5,40 @@
 ```datacorejs
 return dc.preact.h(
   dc.Button,
-  { onClick: () => require('/integrateWithOtherPlugins').runFromDatacorejs() },
-  "Run CodeScript Toolkit from datacorejs"
+  {
+    onClick: () => {
+      const { runFromDatacorejs } = require('/integrateWithOtherPlugins.js');
+      runFromDatacorejs();
+    }
+   },
+  'Run CodeScript Toolkit from datacorejs'
 );
 ```
 
 ```datacorejsx
 return <dc.Button onClick={() => {
-  require('/integrateWithOtherPlugins').runFromDatacorejsx();
+  const { runFromDatacorejsx } = require('/integrateWithOtherPlugins.js');
+  runFromDatacorejsx();
 }}>Run CodeScript Toolkit from datacorejsx</dc.Button>
 ```
 
 ```datacorets
 return dc.preact.h(
   dc.Button,
-  { onClick: () => require('/integrateWithOtherPlugins').runFromDatacorets() },
-  "Run CodeScript Toolkit from datacorets"
+  {
+    onClick: () => {
+      const { runFromDatacorets } = require('/integrateWithOtherPlugins.js');
+      runFromDatacorets();
+    }
+  },
+  'Run CodeScript Toolkit from datacorets'
 );
 ```
 
 ```datacoretsx
 return <dc.Button onClick={() => {
-  require('/integrateWithOtherPlugins').runFromDatacoretsx();
+  const { runFromDatacoretsx } = require('/integrateWithOtherPlugins.js');
+  runFromDatacoretsx();
 }}>Run CodeScript Toolkit from datacoretsx</dc.Button>
 ```
 
