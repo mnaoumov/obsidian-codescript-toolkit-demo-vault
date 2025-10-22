@@ -3,7 +3,7 @@
   "invocableScriptsFolder": "Invocables",
   "mobileChangesCheckingIntervalInSeconds": 30,
   "modulesRoot": "_assets/CodeScriptToolkit",
-  "shouldHandleProtocolUrls": false,
+  "shouldHandleProtocolUrls": true,
   "shouldUseSyncFallback": false,
-  "startupScriptPath": ""
+  "startupScriptPath": "Invocables/startup.js"
 }

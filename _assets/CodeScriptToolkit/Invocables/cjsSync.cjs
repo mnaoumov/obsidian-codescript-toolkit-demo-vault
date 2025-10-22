@@ -1,7 +1,7 @@
 const { Notice } = require('obsidian');
 
-exports.jsAsCjs = () => {
-  const message = 'Require js as cjs';
+exports.invoke = () => {
+  const message = 'Invocable CJS sync';
   new Notice(message);
   console.log(message);
 };

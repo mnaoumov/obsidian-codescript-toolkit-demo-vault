@@ -1,4 +1,4 @@
-import { Notice } from 'obsidian';
+const { Notice } = require('obsidian');
 
 exports.cjs = () => {
   const message = 'Require cjs';

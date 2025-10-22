@@ -1,0 +1,10 @@
+{
+  "fix-require-modules:invokeScriptFile-hotkey.js": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ]
+}

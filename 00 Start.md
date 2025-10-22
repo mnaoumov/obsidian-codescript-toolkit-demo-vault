@@ -28,7 +28,6 @@ This is an [Obsidian](https://obsidian.md/) vault to demonstrate features of [Co
 - [[Clear cache]]
 - [[Source maps]]
 - [[Invocable scripts]]
-- [[Invoke scripts]]
 - [[Startup script]]
 - [[Hotkeys]]
 - [[Code buttons]]
