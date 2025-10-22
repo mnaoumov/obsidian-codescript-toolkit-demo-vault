@@ -1,5 +1,46 @@
 {
-  "choices": [],
+  "choices": [
+    {
+      "id": "f5253c8f-6316-4a6c-bcd6-3354724ad4de",
+      "name": "QuickAddModule",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "QuickAddModule",
+        "id": "ff12ff0e-c1a1-4820-b57a-9d58b147e8dd",
+        "commands": [
+          {
+            "name": "QuickAddModule",
+            "type": "UserScript",
+            "id": "7ea7ffd0-8472-4c65-beb8-5e259c85b6aa",
+            "path": "_assets/QuickAdd/QuickAddModule.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "c7b4a7e3-a16e-4bf0-aea5-58f0770ebfef",
+      "name": "RunCodeScriptToolkitFromQuickAdd",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "RunCodeScriptToolkitFromQuickAdd",
+        "id": "76c677d5-0fce-4534-8ec8-0abdd495d7e5",
+        "commands": [
+          {
+            "name": "RunCodeScriptToolkitFromQuickAdd",
+            "type": "UserScript",
+            "id": "506c44ce-4e63-4942-84fe-5addfcd78362",
+            "path": "_assets/QuickAdd/RunCodeScriptToolkitFromQuickAdd.js",
+            "settings": {}
+          }
+        ]
+      }
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",

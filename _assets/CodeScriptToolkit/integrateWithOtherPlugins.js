@@ -32,6 +32,10 @@ export function runFromModules() {
   runFrom('Modules');
 }
 
+export function runFromQuickAdd() {
+  runFrom('QuickAdd');
+}
+
 function runFrom(from) {
   new Notice(`Run CodeScriptToolkit from ${from}`);
   console.log(`Run CodeScriptToolkit from ${from}`);
