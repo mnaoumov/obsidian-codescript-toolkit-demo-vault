@@ -1,5 +1,9 @@
 # [`CustomJS`](https://github.com/saml-dev/obsidian-custom-js) scripts
 
+## Run `CodeScript Toolkit` from `CustomJS`
+
+Invoke `CustomJS: RunCodeScriptToolkitFromCustomJS` command.
+
 ## Run `CustomJS` from `CodeScript Toolkit`
 
 
@@ -9,7 +13,3 @@ caption: Run CustomJS from CodeScript Toolkit
 ---
 customJS.CustomJSModule.runFromCodeScriptToolkit()
 ```
-
-## Run `CodeScript Toolkit` from `CustomJS`
-
-Invoke `CustomJS: RunCodeScriptToolkitFromCustomJS` command.
