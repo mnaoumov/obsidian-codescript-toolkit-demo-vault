@@ -2,8 +2,8 @@
 
 ```code-button
 ---
-caption: Require rystem root path (requires changing code to match your vault's real system path)
+caption: Require system root path (requires changing code to match your vault's real system path)
 ---
-const { run } = require('~/home/obsidian-codescript-toolkit-demo-vault/_assets/CodeScriptToolkit/systemRootPath.js');
-run();
+const { systemRootPath } = require('~/path/to/vault/obsidian-codescript-toolkit-demo-vault/_assets/CodeScriptToolkit/systemRootPath.js');
+systemRootPath();
 ```

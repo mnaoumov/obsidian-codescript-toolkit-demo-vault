@@ -4,16 +4,16 @@
 ---
 caption: Require relative path
 ---
-const { run } = require('./_assets/CodeScriptToolkit/relativePath.js');
-run();
+const { relativePath } = require('./_assets/CodeScriptToolkit/relativePath.js');
+relativePath();
 ```
 
 ```code-button
 ---
 caption: Require relative path with custom parent path
 ---
-const { run } = require('./_assets/CodeScriptToolkit/relativePathWithCustomParentPath.js', { parentPath: 'Relative path.md' });
-run();
+const { relativePathWithCustomParentPath } = require('./_assets/CodeScriptToolkit/relativePathWithCustomParentPath.js', { parentPath: 'Relative path.md' });
+relativePathWithCustomParentPath();
 ```
 
 See also [[Parent relative path]].

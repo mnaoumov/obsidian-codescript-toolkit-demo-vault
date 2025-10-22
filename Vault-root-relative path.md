@@ -4,6 +4,6 @@
 ---
 caption: Require vault-root-relative path
 ---
-const { run } = require('//_assets/CodeScriptToolkit/vaultRootRelativePath.js');
-run();
+const { vaultRootRelativePath } = require('//_assets/CodeScriptToolkit/vaultRootRelativePath.js');
+vaultRootRelativePath();
 ```

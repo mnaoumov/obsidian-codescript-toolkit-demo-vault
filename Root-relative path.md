@@ -4,6 +4,6 @@
 ---
 caption: Require root-relative path
 ---
-const { run } = require('/rootRelativePath.js');
-run();
+const { rootRelativePath } = require('/rootRelativePath.js');
+rootRelativePath();
 ```
