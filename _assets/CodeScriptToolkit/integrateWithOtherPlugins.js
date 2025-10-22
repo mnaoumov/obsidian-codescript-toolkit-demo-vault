@@ -28,6 +28,10 @@ export function runFromDevToolsConsole() {
   runFrom('DevTools Console');
 }
 
+export function runFromJSEngine() {
+  runFrom('JS Engine');
+}
+
 export function runFromModules() {
   runFrom('Modules');
 }
