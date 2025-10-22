@@ -43,4 +43,3 @@ console.log(message);
 const page = datacore.page(app.workspace.getActiveFile().path);
 console.log(page);
 ```
-
