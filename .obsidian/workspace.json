@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "df656e3b07cfe5ed",
+        "id": "73964d9e400a7118",
         "type": "tabs",
         "children": [
           {
-            "id": "7d296bfdb331dbbc",
+            "id": "6ad3d3f0f32be9c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "NPM modules.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "NPM modules"
             }
           }
         ]
@@ -166,27 +166,48 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "7d296bfdb331dbbc",
+  "active": "6ad3d3f0f32be9c6",
   "lastOpenFiles": [
-    "Integrate with other plugins.md",
-    "README.md",
-    "_assets/CodeScriptToolkit/integrateWithOtherPlugins.js",
-    "_assets/CustomJS/InvokeCodeScriptToolkit.js",
-    "_assets/CustomJS/CustomJSModule.js",
-    "_assets/CustomJS/Module.js",
-    "_assets/CustomJS/InvokeFromCodeScriptToolkit copy.js",
-    "_assets/CustomJS/InvokeFromCodeScriptToolkit.js",
-    "_assets/CustomJS/Invocable.js",
-    "_assets/CustomJS/script1.js",
-    "_assets/CodeScriptToolkit",
-    "_assets/CustomJS/Untitled.md",
-    "_assets/CustomJS",
-    "_assets/CustomJS.md",
     "00 Start.md",
-    "01 Integration with other plugins.md",
+    "TypeScript modules.md",
+    "ECMAScript modules.md",
+    "_assets/CodeScriptToolkit/tsAsMts.ts",
+    "_assets/CodeScriptToolkit/tsAsCts.ts",
+    "_assets/CodeScriptToolkit/mts.mts",
+    "_assets/CodeScriptToolkit/cts.cts",
+    "_assets/CodeScriptToolkit/1/mts.mts",
+    "_assets/CodeScriptToolkit/1/tsAsMts.ts",
+    "_assets/CodeScriptToolkit/1/tsAsCts.ts",
+    "_assets/CodeScriptToolkit/1/cts.cts",
+    "_assets/CodeScriptToolkit/1/mjs.mjs",
+    "_assets/CodeScriptToolkit/1/jsAsMjs.js",
+    "Vault-root-relative path.md",
+    "System root path.md",
+    "Root-relative path.md",
+    "Resource URLs.md",
+    "Relative path.md",
+    "Folder/Parent relative path.md",
+    "Override module type.md",
+    "obsidian-specialModuleNames.md",
+    "obsidian-app.md",
+    "NPM modules.md",
+    "Node built-in modules.md",
+    "Node binaries.md",
+    "Markdown files.md",
+    "JSON files.md",
+    "Invoke scripts.md",
+    "Invocable scripts.md",
+    "Hotkeys.md",
+    "File URLs.md",
+    "Dynamic import.md",
+    "Clear cache.md",
+    "Built-in modules.md",
+    "ASAR.md",
+    "Additional desktop modules.md",
     "_assets/attachments/turn-on.png",
     "_assets/attachments/trust-author.png"
   ]
