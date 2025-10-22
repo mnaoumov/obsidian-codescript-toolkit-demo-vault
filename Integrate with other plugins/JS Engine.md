@@ -19,5 +19,5 @@ return button;
 ---
 caption: Run JS Engine from CodeScript Toolkit
 ---
-app.plugins.plugins['js-engine'].api.prompt.yesNo({ title: 'Run JS Engine from CodeScript Toolkit' })
+app.plugins.plugins['js-engine'].api.prompt.yesNo({ title: 'Run JS Engine from CodeScript Toolkit' });
 ```
