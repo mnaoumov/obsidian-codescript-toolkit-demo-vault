@@ -1,4 +1,5 @@
 module.exports = () => {
-  new Notice('Run QuickAdd from CodeScriptToolkit');
-  console.log('Run QuickAdd from CodeScriptToolkit');
+  const message = 'Run QuickAdd from CodeScript Toolkit';
+  new Notice(message);
+  console.log(message);
 };

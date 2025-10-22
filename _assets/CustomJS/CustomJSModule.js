@@ -1,6 +1,7 @@
 class CustomJSModule {
   runFromCodeScriptToolkit() {
-    new Notice('Run CustomJS from CodeScriptToolkit');
-    console.log('Run CustomJS from CodeScriptToolkit');
+    const message = 'Run CustomJS from CodeScript Toolkit';
+    new Notice(message);
+    console.log(message);
   }
 }

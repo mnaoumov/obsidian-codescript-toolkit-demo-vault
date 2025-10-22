@@ -37,6 +37,7 @@ export function runFromQuickAdd() {
 }
 
 function runFrom(from) {
-  new Notice(`Run CodeScriptToolkit from ${from}`);
-  console.log(`Run CodeScriptToolkit from ${from}`);
+  const message = `Run CodeScript Toolkit from ${from}`;
+  new Notice(message);
+  console.log(message);
 }
