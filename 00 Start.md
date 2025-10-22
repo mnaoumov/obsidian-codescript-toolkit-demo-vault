@@ -1,35 +1,35 @@
 This is an [Obsidian](https://obsidian.md/) vault to demonstrate features of [CodeScript Toolkit](https://github.com/mnaoumov/obsidian-codescript-toolkit/) plugin.
 
 - [[Integrate with other plugins]]
-- [Built-in Modules](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/built-in-modules.md)
-- [`obsidian/app` module](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/obsidian-app-module.md)
-- [`obsidian/specialModuleNames` module](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/obsidian-special-module-names.md)
-- [Additional desktop modules](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/additional-desktop-modules.md)
-- [Relative path](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/relative-path.md)
-- [Root-relative path](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/root-relative-path.md)
-- [System root path (Linux, MacOS)](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/system-root-path.md)
-- [Vault-root-relative path](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/vault-root-relative-path.md)
-- [`ECMAScript Modules` (`esm`)](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/esm.md)
-- [`TypeScript` modules](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/typescript.md)
-- [NPM modules](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/npm-modules.md)
-- [Node built-in modules](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/node-built-in-modules.md)
-- [JSON files](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/json.md)
-- [Node binaries](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/node-binaries.md)
-- [`WebAssembly` (`WASM`)](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/wasm.md)
-- [`ASAR` Archives](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/asar.md)
-- [Markdown files](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/markdown.md)
-- [Override module type](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/override-module-type.md)
-- [URLs](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/urls.md)
-- [File URLs](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/file-urls.md)
-- [Resource URLs](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/resource-urls.md)
-- [Top-level await](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/top-level-await.md)
-- [Smart caching](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/smart-caching.md)
-- [Dynamic `import()`](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/dynamic-import.md)
-- [Clear cache](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/clear-cache.md)
-- [Source maps](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/source-maps.md)
-- [Invocable scripts](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/invocable-scripts.md)
-- [Invoke scripts](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/invoke-scripts.md)
-- [Startup script](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/startup-script.md)
-- [Hotkeys](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/hotkeys.md)
-- [Code buttons](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/code-buttons.md)
-- [Protocol URLs](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/protocol-urls.md)
+- [[Built-in modules]]
+- [`obsidian/app` module](./obsidian-app.md)
+- [`obsidian/specialModuleNames` module](./obsidian-specialModuleNames.md)
+- [[Additional desktop modules]]
+- [[Relative path]]
+- [[Root-relative path]]
+- [[System root path]]
+- [[Vault-root-relative path]]
+- [[ECMAScript modules]]
+- [[TypeScript modules]]
+- [[NPM modules]]
+- [[Node built-in modules]]
+- [[JSON files]]
+- [[Node binaries]]
+- [[WebAssembly]]
+- [[ASAR]]
+- [[Markdown files]]
+- [[Override module type]]
+- [[URLs]]
+- [[File URLs]]
+- [[Resource URLs]]
+- [[Top-level await]]
+- [[Smart caching]]
+- [[Dynamic import]]
+- [[Clear cache]]
+- [[Source maps]]
+- [[Invocable scripts]]
+- [[Invoke scripts]]
+- [[Startup script]]
+- [[Hotkeys]]
+- [[Code buttons]]
+- [[Protocol URLs]]
