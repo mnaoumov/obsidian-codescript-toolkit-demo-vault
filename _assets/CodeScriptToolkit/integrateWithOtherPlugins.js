@@ -36,6 +36,10 @@ export function runFromQuickAdd() {
   runFrom('QuickAdd');
 }
 
+export function runFromTemplater() {
+  runFrom('Templater');
+}
+
 function runFrom(from) {
   const message = `Run CodeScript Toolkit from ${from}`;
   new Notice(message);
