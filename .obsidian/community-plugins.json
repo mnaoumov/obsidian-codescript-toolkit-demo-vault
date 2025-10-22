@@ -1,10 +1,10 @@
 [
-  "fix-require-modules",
   "customjs",
   "datacore",
   "dataview",
   "modules",
   "quickadd",
   "templater-obsidian",
-  "js-engine"
+  "js-engine",
+  "fix-require-modules"
 ]
