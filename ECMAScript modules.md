@@ -4,15 +4,15 @@
 ---
 caption: Require ECMAScript modules
 ---
-const { cjs } = require('/cjs.cjs');
+const { cjs } = require('/module.cjs');
 cjs();
 
-const { mjs } = require('/mjs.mjs');
+const { mjs } = require('/module.mjs');
 mjs();
 
-const { jsAsCjs } = require('/jsAsCjs.js');
+const { jsAsCjs } = require('/moduleAsCjs.js');
 jsAsCjs();
 
-const { jsAsMjs } = require('/jsAsMjs.js');
+const { jsAsMjs } = require('/moduleAsMjs.js');
 jsAsMjs();
 ```

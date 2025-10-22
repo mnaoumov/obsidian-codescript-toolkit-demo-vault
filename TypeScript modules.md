@@ -4,15 +4,15 @@
 ---
 caption: Require TypeScript modules
 ---
-const { cts } = require('/cts.cts');
+const { cts } = require('/module.cts');
 cts();
 
-const { mts } = require('/mts.mts');
+const { mts } = require('/module.mts');
 mts();
 
-const { tsAsCts } = require('/tsAsCts.ts');
+const { tsAsCts } = require('/moduleAsCts.ts');
 tsAsCts();
 
-const { tsAsMts } = require('/tsAsMts.ts');
+const { tsAsMts } = require('/moduleAsMts.ts');
 tsAsMts();
 ```

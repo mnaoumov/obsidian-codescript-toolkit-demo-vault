@@ -6,5 +6,6 @@
   "showUnsupportedFiles": true,
   "newFileLocation": "current",
   "defaultViewMode": "preview",
-  "livePreview": false
+  "livePreview": false,
+  "focusNewTab": false
 }
