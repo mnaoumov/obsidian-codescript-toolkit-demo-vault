@@ -16,3 +16,20 @@ tsAsCts();
 const { tsAsMts } = require('/moduleAsMts.ts');
 tsAsMts();
 ```
+
+```code-button
+---
+caption: Import TypeScript modules
+---
+import { cts } from '/module.cts';
+cts();
+
+import { mts } from '/module.mts';
+mts();
+
+import { tsAsCts } from '/moduleAsCts.ts';
+tsAsCts();
+
+import { tsAsMts } from '/moduleAsMts.ts';
+tsAsMts();
+```

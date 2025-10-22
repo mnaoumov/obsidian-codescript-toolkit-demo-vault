@@ -16,3 +16,20 @@ jsAsCjs();
 const { jsAsMjs } = require('/moduleAsMjs.js');
 jsAsMjs();
 ```
+
+```code-button
+---
+caption: Import ECMAScript modules
+---
+import { cjs } from '/module.cjs';
+cjs();
+
+import { mjs } from '/module.mjs';
+mjs();
+
+import { jsAsCjs } from '/moduleAsCjs.js';
+jsAsCjs();
+
+import { jsAsMjs } from '/moduleAsMjs.js';
+jsAsMjs();
+```
