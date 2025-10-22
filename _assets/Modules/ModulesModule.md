@@ -10,6 +10,7 @@ export function runFromCodeScriptToolkit() {
 }
 
 export function runCodeScriptToolkit() {
-  require('/integrateWithOtherPlugins.js').runFromModules();
+  const { runFromModules } = require('/integrateWithOtherPlugins.js');
+  runFromModules();
 }
 ```

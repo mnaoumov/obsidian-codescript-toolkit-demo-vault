@@ -1,6 +1,6 @@
 class RunCodeScriptToolkitFromCustomJS {
   invoke() {
-    const integrateModule = require('/integrateWithOtherPlugins.js');
-    integrateModule.runFromCustomJS();
+    const { runFromCustomJS } = require('/integrateWithOtherPlugins.js');
+    runFromCustomJS();
   }
 }
