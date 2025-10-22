@@ -2,8 +2,8 @@
 
 ```code-button
 ---
-caption: Require WebAssembly
+caption: Require ASAR
 ---
-const { answer } = await requireAsync('/module.wasm');
-console.log(answer());
+const { jsInsideAsar } = require('/module.asar/jsInsideAsar.js');
+jsInsideAsar();
 ```
