@@ -6,7 +6,7 @@ This is an [Obsidian](https://obsidian.md/) vault to demonstrate features of [Co
 >
 > Almost all features can be used on Mobile via slightly modifying the corresponding code examples.
 >
-> See [docs](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/new-functions.md#migrate-to-async) to adjust the code examples to work on mobile.
+> See [docs](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/new-functions.md#migrate-to-async) to adjust the code examples to work on Mobile.
 
 - [[Integrate with other plugins]]
 - [[Built-in modules]]

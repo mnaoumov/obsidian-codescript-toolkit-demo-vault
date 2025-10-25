@@ -16,7 +16,7 @@ button.addEventListener('click', () => {
 >
 > E.g., `require('/integrateWithOtherPlugins.js')` from the example above, will just return `undefined`, leading to the hard-to-detect errors.
 >
-> See [docs](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/new-functions.md#migrate-to-async) to adjust the code examples to work on mobile. 
+> See [docs](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/new-functions.md#migrate-to-async) to adjust the code examples to work on Mobile. 
 
 ## Run `Dataview` from `CodeScript Toolkit`
 
