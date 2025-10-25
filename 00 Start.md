@@ -1,5 +1,13 @@
 This is an [Obsidian](https://obsidian.md/) vault to demonstrate features of [CodeScript Toolkit](https://github.com/mnaoumov/obsidian-codescript-toolkit/) plugin.
 
+> [!WARNING] Mobile support
+>
+> All the examples in this vault are made for Desktop. However, most of the features would not work with `require()` on Mobile.
+>
+> Almost all features can be used on Mobile via slightly adjusting the corresponding code examples.
+>
+> See [docs](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/new-functions.md#mobile-support) to adjust the code examples to work on mobile.
+
 - [[Integrate with other plugins]]
 - [[Built-in modules]]
 - [`obsidian/app` module](./obsidian-app.md)

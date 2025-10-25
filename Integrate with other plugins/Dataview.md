@@ -10,6 +10,14 @@ button.addEventListener('click', () => {
 });
 ```
 
+> [!WARNING] Mobile support
+>
+> `require()` calls in `dataviewjs` on Mobile bypass `CodeScript Toolkit` plugin and most of its features will not work there.
+>
+> E.g., `require('/integrateWithOtherPlugins.js')` from the example above, will just return `undefined`, leading to the hard-to-detect errors.
+>
+> See [docs](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/new-functions.md#mobile-support) to adjust the code examples to work on mobile. 
+
 ## Run `Dataview` from `CodeScript Toolkit`
 
 ```code-button
