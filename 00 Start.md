@@ -4,9 +4,9 @@ This is an [Obsidian](https://obsidian.md/) vault to demonstrate features of [Co
 >
 > All the examples in this vault are made for Desktop. However, most of the features would not work with `require()` on Mobile.
 >
-> Almost all features can be used on Mobile via slightly adjusting the corresponding code examples.
+> Almost all features can be used on Mobile via slightly modifying the corresponding code examples.
 >
-> See [docs](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/new-functions.md#mobile-support) to adjust the code examples to work on mobile.
+> See [docs](https://github.com/mnaoumov/obsidian-codescript-toolkit/blob/main/docs/new-functions.md#migrate-to-async) to adjust the code examples to work on mobile.
 
 - [[Integrate with other plugins]]
 - [[Built-in modules]]
