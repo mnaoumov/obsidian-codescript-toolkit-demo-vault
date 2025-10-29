@@ -1,0 +1,21 @@
+{
+  "name": "node-napi-hello-min",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal N-API addon returning a hello string. Zero runtime deps.",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "build": "node-gyp build",
+    "configure": "node-gyp configure",
+    "rebuild": "node-gyp rebuild",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-addon-api": "^8.0.0"
+  },
+  "devDependencies": {
+    "wabt": "^1.0.38"
+  }
+}
