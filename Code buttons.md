@@ -127,7 +127,17 @@ class MyTempPlugin extends Plugin {
   }
 }
 
-codeButtonContext.registerTempPlugin(MyTempPlugin);
+const cssText = '* { color: red; }';
+
+codeButtonContext.registerTempPlugin(MyTempPlugin, cssText);
+
+codeButtonContext.container.createEl('button', {
+  text: 'Unregister'
+}, (button) => {
+  button.addEventListener('click', () => {
+    app.commands.executeCommandById('fix-require-modules:unregister-temp-plugin-MyTempPlugin');
+  });
+});
 ```
 
 ```code-button
