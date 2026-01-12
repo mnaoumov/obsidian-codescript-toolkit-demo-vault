@@ -12,7 +12,7 @@ This is an [Obsidian](https://obsidian.md/) vault to demonstrate features of [Co
 - [[Built-in modules]]
 - [`obsidian/app` module](./obsidian-app.md)
 - [`obsidian/specialModuleNames` module](./obsidian-specialModuleNames.md)
-- [`obsidian/dev-utils` module](./obsidian-dev-utils.md)
+- [`obsidian-dev-utils` module](./obsidian-dev-utils.md)
 - [`codescript-toolkit` module](./codescript-toolkit.md)
 - [[Additional desktop modules]]
 - [[Relative path]]
