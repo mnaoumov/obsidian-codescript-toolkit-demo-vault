@@ -5,7 +5,7 @@ import {
 
 export const invokeCommand: Partial<Command> = {
   callback(): void {
-    const message = 'Command with callback';
+    const message = 'Command with custom name';
     new Notice(message);
     console.log(message);
   },
