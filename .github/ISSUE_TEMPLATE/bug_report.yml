@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a bug and help improve the plugin
+description: Report a bug and help improve the demo vault
 title: "[BUG] Don't forget to write a meaningful title"
 labels: bug
 assignees: mnaoumov
@@ -44,13 +44,6 @@ body:
       required: true
   - type: input
     attributes:
-      label: Plugin version
-      description: ⚠️ Must be the latest version. If not, explain why above.
-      placeholder: 1.0.0
-    validations:
-      required: true
-  - type: input
-    attributes:
       label: Obsidian version
       description: ⚠️ Must be the latest version. If not, explain why above.
       placeholder: 1.3.2
@@ -83,19 +76,10 @@ body:
         - "Attached"
     validations:
       required: true
-  - type: dropdown
-    attributes:
-      label: Bug isolation
-      description: Did you verify the bug in isolation from other plugins?
-      options:
-        - "No, only with other plugins enabled (provide details in the description field). ⚠️ Sample vault required or the bug report will be closed."
-        - "Yes, I could reproduce the bug in the vault with only this plugin enabled."
-    validations:
-      required: true
   - type: checkboxes
     attributes:
       label: Confirmations
       description: Ensure the following conditions are met
       options:
-        - label: I have checked the plugin's GitHub repository and haven't found any similar bugs
+        - label: I have checked the repository and haven't found any similar bugs
           required: true
