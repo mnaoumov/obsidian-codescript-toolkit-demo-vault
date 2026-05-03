@@ -35,6 +35,7 @@ This is an [Obsidian](https://obsidian.md/) vault to demonstrate features of [Co
 - [[Top-level await]]
 - [[Smart caching]]
 - [[Dynamic import]]
+- [[requireAsyncWrapper]]
 - [[Clear cache]]
 - [[Source maps]]
 - [[Invocable scripts]]
