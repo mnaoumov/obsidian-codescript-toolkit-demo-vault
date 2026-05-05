@@ -17,7 +17,19 @@ class RequireCodescriptToolkitModulePlugin extends Plugin {
 
 const cssText = '* { color: red; }';
 
-registerTempPlugin(RequireCodescriptToolkitModulePlugin, cssText);
+await registerTempPlugin({ tempPluginClass: RequireCodescriptToolkitModulePlugin, cssText });
+```
+
+## getTempPlugin
+
+```code-button
+---
+caption: 'getTempPlugin from codescript-toolkit'
+---
+const { getTempPlugin } = require('codescript-toolkit');
+
+const plugin = getTempPlugin('RequireCodescriptToolkitModulePlugin');
+new Notice(`Temp plugin: ${plugin ? 'found' : 'not found'}`);
 ```
 
 ## unregisterTempPlugin
