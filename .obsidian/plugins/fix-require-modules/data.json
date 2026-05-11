@@ -4,6 +4,7 @@
   "mobileChangesCheckingIntervalInSeconds": 30,
   "modulesRoot": "_assets/CodeScriptToolkit",
   "shouldHandleProtocolUrls": true,
+  "shouldShowTempPluginLoadUnloadNotices": true,
   "shouldUseSyncFallback": false,
   "startupScriptPath": "Invocables/startup.js"
 }
