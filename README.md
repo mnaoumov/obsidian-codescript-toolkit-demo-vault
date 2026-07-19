@@ -1,3 +1,9 @@
+> [!WARNING]
+>
+> This repo is archived and no longer maintained. The corresponding demo vaults are maintained directly in [CodeScript Toolkit repo](https://github.com/mnaoumov/obsidian-codescript-toolkit/).
+
+---
+
 This is an [Obsidian](https://obsidian.md/) vault to demonstrate features of [CodeScript Toolkit](https://github.com/mnaoumov/obsidian-codescript-toolkit/) plugin.
 
 To start using it:
